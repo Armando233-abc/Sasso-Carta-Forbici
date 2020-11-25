@@ -11,17 +11,21 @@
     <h1>Morra Cinese</h1>
 
     <div>
-        <button id="sasso">
+        <button id="sasso" onclick="scelta_utente('sasso')">
             <img src="img/sasso.png" alt="">
         </button>
 
-        <button id="carta">
+        <button id="carta" onclick="scelta_utente('carta')">
             <img src="img/carta.png" alt="">
         </button>
 
-        <button id="forbici">
+        <button id="forbici" onclick="scelta_utente('forbici')">
             <img src="img/forbice.png" alt="">
         </button>
     </div>
+
+    <h2>Verdetto: <span id="verdetto"></span></h2>
+    <h3>Utente: <span id="utente">0</span></h3>
+    <h3>Computer: <span id="computer">0</span></h3>
 </body>
 </html>
