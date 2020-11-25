@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
 body{
     display: grid;
     place-content: center;
@@ -5,11 +8,36 @@ body{
     padding: 0;
     height: 100vh;
     width: 100vw;
-    text-align: center;
     background-color: #fbbaa9;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+#scelte{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin: auto;
+}
+
+.bottoni{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 50px;
 }
 
 button{
     background: none;
-    border: none;
+    display:block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid red;
+    margin-right: 50px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
 }

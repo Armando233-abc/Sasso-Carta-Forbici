@@ -8,24 +8,36 @@
     <script src="app.js" defer></script>
 </head>
 <body>
-    <h1>Morra Cinese</h1>
+    <h1>MORRA CINESE</h1>
 
-    <div>
+    <div id="scelte">
+        <div id="scelta_utente">
+            <h1>Utente: <span id="utente">0</span></h1>
+            <img src="img/bg.png" alt="">
+        </div>
+        <div id="immagine_verdetto">
+            <h1>Verdetto</h1>
+            <img src="img/bg.png" alt="">
+        </div>
+        <div id="scelta_computer">
+            <h1>Computer: <span id="computer">0</span></h1>
+            <img src="img/bg.png" alt="">
+        </div>
+    </div>
+
+    <div class="bottoni">
         <button id="sasso" onclick="scelta_utente('sasso')">
-            <img src="img/sasso.png" alt="">
+            <img src="img/sasso.svg" alt="">
         </button>
 
         <button id="carta" onclick="scelta_utente('carta')">
-            <img src="img/carta.png" alt="">
+            <img src="img/carta.svg" alt="">
         </button>
 
         <button id="forbici" onclick="scelta_utente('forbici')">
-            <img src="img/forbice.png" alt="">
+            <img src="img/forbici.svg" alt="">
         </button>
     </div>
 
-    <h2>Verdetto: <span id="verdetto"></span></h2>
-    <h3>Utente: <span id="utente">0</span></h3>
-    <h3>Computer: <span id="computer">0</span></h3>
 </body>
 </html>
