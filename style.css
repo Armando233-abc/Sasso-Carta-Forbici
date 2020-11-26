@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 body{
+    font-family: 'Fredoka One';
     background-color: #fbbaa9;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     text-align: center;
-    display: flex;
-    flex-direction: column;
 }
 
 button{
@@ -44,5 +45,39 @@ button{
     .bottoni > button{
         padding-top: 20px;
         padding-right: 1px;
+    }
+}
+
+/*Computer*/
+@media (min-width: 1200px){
+    #titolo{
+        margin: 30px;
+    }
+    #scelte{
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+        margin: auto;
+        padding-top: 70px;
+        padding-bottom: 150px;
+    }
+
+    #scelte > div{
+        flex-grow: 2;
+    }
+
+    .bottoni{
+        display: flex;
+        width: 70vw;
+        margin: auto;
+    }
+
+    .bottoni > button{
+        flex-grow: 2;
+    }
+
+    img{
+        width: 150px;
+        height: 150px;
     }
 }
