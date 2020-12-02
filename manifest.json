@@ -3,7 +3,7 @@
     "background_color": "#f69435",
     "display": "standalone",
     "scope": "/Sasso-Carta-Forbici/",
-    "start_url": "/https://armando233-abc.github.io/Sasso-Carta-Forbici/",
+    "start_url": "https://armando233-abc.github.io/Sasso-Carta-Forbici/",
     "app_name": "Morra Cinese",
     "short_name": "Morra Cinese",
     "icons": [
